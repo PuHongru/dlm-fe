@@ -1,7 +1,12 @@
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import { observer } from "mobx-react";
 
-function App() {
-  return <div className="App">根组件</div>;
-}
-
-export default App;
+export default observer(() => {
+  return (
+    <>
+      <Routes>
+        <Route path="/download" element={<Download></Download>}></Route>
+      </Routes>
+    </>
+  );
+});
