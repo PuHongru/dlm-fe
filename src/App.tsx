@@ -1,11 +1,13 @@
-import { Routes, Route } from "react-router-dom";
-import { observer } from "mobx-react";
+import { Routes, Route } from 'react-router-dom';
+import { observer } from 'mobx-react';
+import { Download, Home } from '@/pages';
 
 export default observer(() => {
   return (
     <>
       <Routes>
-        <Route path="/download" element={<Download></Download>}></Route>
+        <Route path="/" element={<Home />} />
+        <Route path="/download" element={<Download />} />
       </Routes>
     </>
   );
