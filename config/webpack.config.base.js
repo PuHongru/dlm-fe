@@ -43,7 +43,7 @@ const baseConfig = {
       // 对图片的处理
       {
         test: /\.(svg|png|jpg|gif)$/,
-        type: 'asset/resource',
+        type: 'asset/images',
       },
     ],
   },
