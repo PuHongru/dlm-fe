@@ -1,0 +1,23 @@
+{
+  "id": "3859192",
+  "name": "dlm",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-dlm",
+  "description": "多乐买前端",
+  "glyphs": [
+    {
+      "icon_id": "217325",
+      "name": "android",
+      "font_class": "android",
+      "unicode": "e61d",
+      "unicode_decimal": 58909
+    },
+    {
+      "icon_id": "27188570",
+      "name": "ios",
+      "font_class": "ios",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    }
+  ]
+}

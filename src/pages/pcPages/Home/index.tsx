@@ -21,8 +21,18 @@ export default (props) => {
           </div>
           <div className="download">
             <Image className="qr-code" src={qrcodeImg} />
-            <a className="ios download-btn">IOS下载</a>
-            <a className="android download-btn">安卓下载</a>
+            <a className="ios download-btn">
+              <i className="iconfont icon-dlmios" />
+              IOS下载
+            </a>
+            <a
+              className="android download-btn"
+              href="https://dlm.heyunshuju.com/download/dlm-app-release.apk"
+              target="_blank"
+            >
+              <i className="iconfont icon-dlmandroid" />
+              安卓下载
+            </a>
           </div>
         </div>
       </div>
