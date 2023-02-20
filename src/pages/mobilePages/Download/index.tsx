@@ -1,13 +1,13 @@
-import './index.less';
 import { NavBar, Image, Button } from 'antd-mobile';
 import logo40 from './images/icon.png';
 import logo from './images/logo.png';
+import './index.less';
 // import bgImg from './images/bg-img.png';
 
 export default (props) => {
   return (
     <div className="download">
-      <NavBar>多乐买APP下载</NavBar>
+      <NavBar className="bar">多乐买APP下载</NavBar>
       <div className="title">
         <Image className="small-logo" src={logo40} />
         <span className="description">

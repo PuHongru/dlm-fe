@@ -37,11 +37,19 @@ export default (props) => {
         </div>
       </div>
       <div className="footer">
+        <span>Copyright © 2023 QUD, Inc. All Rights Reserved. | </span>
+        <a
+          className="copyright"
+          href="https://beian.miit.gov.cn/"
+          target="_blank"
+        >
+          京ICP备2023002815号
+        </a>
         {/* <span>Copyright © 2019 QUD, Inc. All Rights Reserved.</span>
-        <span>京ICP备15026824号</span>
+        <span>京ICP备2023002815号</span>
         <span>京公网安备 11010502034461号</span> */}
-        Copyright © 2019 QUDIAN, Inc. All Rights Reserved. | 京ICP备15026824号 |
-        京公网安备 11010502034461号
+        {/* Copyright © 2019 QUDIAN, Inc. All Rights Reserved. | 京ICP备15026824号 |
+        京公网安备 11010502034461号 */}
       </div>
     </div>
   );
