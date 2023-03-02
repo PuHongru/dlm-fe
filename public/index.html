@@ -14,13 +14,10 @@
 
 <body>
   <div id="root"></div>
+  <script>
+    const dpr = devicePixelRatio >= 3 ? 3 : devicePixelRatio >= 2 ? 2 : 1;
+    document.documentElement.setAttribute('data-dpr', dpr);
+  </script>
 </body>
-
-<!-- <style>
-  body {
-    margin: 0;
-    padding: 0;
-  }
-</style> -->
 
 </html>
