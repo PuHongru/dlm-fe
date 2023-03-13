@@ -23,6 +23,9 @@ module.exports = merge(baseConfig, {
     // 启动时打开浏览器
     open: true,
     historyApiFallback: true,
+    proxy: {
+      '/': 'http://101.43.209.27/',
+    },
   },
   // 插件配置
   plugins: [
