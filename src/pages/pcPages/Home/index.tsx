@@ -21,18 +21,18 @@ export default (props) => {
           </div>
           <div className="download">
             <Image className="qr-code" src={qrcodeImg} />
-            <a className="ios download-btn">
+            {/* <a className="ios download-btn">
               <i className="iconfont icon-dlmios" />
               IOS下载
-            </a>
-            <a
+            </a> */}
+            {/* <a
               className="android download-btn"
               href="https://dlm.heyunshuju.com/download/dlm-app-release.apk"
               target="_blank"
             >
               <i className="iconfont icon-dlmandroid" />
               安卓下载
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
@@ -40,10 +40,24 @@ export default (props) => {
         <span>Copyright © 2023 QUD, Inc. All Rights Reserved. | </span>
         <a
           className="copyright"
-          href="https://beian.miit.gov.cn/"
+          href="https://www.dlmbuy.com/doc/privacy.html"
           target="_blank"
         >
-          京ICP备2023002815号
+          隐私协议
+        </a>
+        <a
+          className="copyright"
+          href="https://beian.miit.gov.cn/#/Integrated/index"
+          target="_blank"
+        >
+          京ICP备2023002815号-1
+        </a>
+        <a
+          className="copyright"
+          href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802041443"
+          target="_blank"
+        >
+          公安备案号 11010802041443
         </a>
         {/* <span>Copyright © 2019 QUD, Inc. All Rights Reserved.</span>
         <span>京ICP备2023002815号</span>
